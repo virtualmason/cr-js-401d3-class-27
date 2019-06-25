@@ -2,7 +2,7 @@
 
 exports[`Thing Component matches snapshot without props 1`] = `
 <span
-  className="my-thing"
+  className="thing"
 >
   Thing
 </span>
