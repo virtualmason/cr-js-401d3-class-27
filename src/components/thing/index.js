@@ -9,6 +9,6 @@ export default class Thing extends React.Component {
   }
 
   render() {
-    return '';
+    return <span className="my-thing">Thing</span>
   }
 }
