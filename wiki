@@ -1,0 +1,5 @@
+1. Shallow rendering is useful to constrain yourself to testing a component as a unit, and to ensure that your tests aren't indirectly asserting on behavior of child components.
+2.Static Rendering Use enzyme's render function to generate HTML from your React tree, and analyze the resulting HTML structure.
+render returns a wrapper very similar to the other renderers in enzyme, mount and shallow; however, render uses a third party HTML parsing and traversal library Cheerio.
+3.Full mounting - let's run test on things mounted
+4.Snapshot tests are a very useful tool whenever you want to make sure your UI does not change unexpectedly. A typical snapshot test case for a mobile app renders a UI component, takes a snapshot, then compares it to a reference snapshot file stored alongside the test. 
