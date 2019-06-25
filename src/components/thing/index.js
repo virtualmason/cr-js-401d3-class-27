@@ -5,13 +5,20 @@ export default class Thing extends React.Component {
     super(props);
 
     this.state = {
+      flag: true,
     };
+  }
+
+  handleClick = e => {
+    this.setState(state => ({ flag: !state.flag }))
   }
 
   render() {
     return (
       <section>
-        <span className="thing">Thing</span>
+        <span className="thing" onClick={this.handleClick}>
+          Thing (Flag = {this.state.flag ? 'On' : 'Off'})
+        </span>
         <Thing2 />
       </section>
     );

@@ -4,8 +4,11 @@ exports[`Thing Component matches snapshot without props 1`] = `
 <section>
   <span
     className="thing"
+    onClick={[Function]}
   >
-    Thing
+    Thing (Flag = 
+    On
+    )
   </span>
   <div>
     Thing 2
